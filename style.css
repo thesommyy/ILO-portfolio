@@ -249,6 +249,109 @@ height: 80vh;
     gap: 1rem;
 }
 
+/* profile section */
+
+#profile {
+    position: relative;
+}
+.profile-containers {
+    gap: 2rem;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+}
+.profile-detail-containers {
+    justify-content: center;
+    flex-direction: column;
+}
+.profile-containers,
+ .profile-details-containers {
+    display: flex;
+ }
+ 
+ .profile-pic {
+    border-radius: 2rem;
+ }
+ .Arrow {
+    position: absolute;
+    right: -5rem;
+ }
+
+ .details-container {
+    padding: 1.5rem;
+    flex: 1;
+    background: pink;
+    border-radius: 2rem;
+    border: rgb(56, 4, 32) 0,1rem solid;
+    border-color: brown;
+    text-align: center;
+ }
+ .section.container {
+    gap: 4rem;
+    height: 80%;
+ }
+
+ .section__pic-container {
+    height: 400px;
+    width:400px;
+    margin: auto 0;
+ }
+
+
+/* Projects Section */
+#projects{
+    display: flex;
+    flex-direction: column;
+}
+#project h1{
+    margin: 60px;
+}
+
+.gallery {
+    display: flex;
+    justify-content: space-around;
+}
+.gallery img{
+    width: 360px;
+    height: 360px;
+    padding: 10px;
+    margin: 10px;
+}
+.gallery img.hover{
+    background-color: rgb(192, 242, 255);
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
