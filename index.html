@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mediaqueries.css">
+</head>
+<body background="./assets/backgport.jpg">
+    <nav id="desktop-nav">
+        <div class="logo">My Portfolio</div>
+        <div>
+            <ul class="nav-links">
+                <li><a href="#home ">Home</a></li>
+                <li><a href="#profile ">Profile</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#conctact">Conctact</a></li>
+            </ul>
+        </div>
+    </nav>
+    <nav id="hamburger-nav">
+        <div class="logo">Ilo Daniella Chisom</div>
+        <div class="hamburger-menu">
+            <div class="hamburger-icon" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="menu-links">
+                <li><a href="#home "onclick="toggleMenu()">Home</a></li>
+                <li><a href="#profile " onclick="toggleMenu()">Profile</a></li>
+                <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+                <li><a href="#conctact" onclick="toggleMenu()">Conctact</a></li>
+            </div>
+        </div>
+    </nav>
+    <section id="home">
+        <div class="section__pic-container">
+            <img src="./assets/sommy.JPG" alt="Ilo Daniella profile picture">
+        </div>
+        <div class="section__text">
+            <p class="section__text__p1">Hello I,m</p>
+            <h1 class="title"> Ilo Daniella</h1>
+            <p class="section__text__p2"> Graphic Designer</p>
+            <p class="section__text__p3"> Digital Creator</p>
+            
+            <div class="btn.container">
+                <button class=" btn.color-2" 
+                onclick="location.href='./#conctact'">
+                 Contact Info 
+                </button>
+            </div>
+            <div id="socials.container">
+                <img 
+                src="./assets/ig logo.jpg" 
+                alt="My Instagram profile"
+                class="icon"
+                onclick="location.href='https://instagram.com/thesommyy/'"
+                />
+                <img 
+                src="./assets/linkdn icon.png" 
+                alt="My linkedin profile"
+                class="icon"
+                onclick="location.href='https://www.linkedin.com/in/chisom-ilo-48a687294/'"
+                />
+                </div>
+        </div>
+    </section>
+    <section id="profile">
+        <p class="section__text__p1"> Get To Know More</p>
+        <h1 class="title"> About Me</h1>
+        <div class="section-container">
+            <div class="section__pic-container">
+                <img src="./assets/somsom.JPG" alt="profile picture"
+                class="profile-pic"
+                />
+            </div>
+            <div class="profile.details.container">
+                <div class="profile.containers">
+                    <div class="details.container">
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+  <script src="script.js"></script>  
+</body>
+</html>
