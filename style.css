@@ -298,11 +298,11 @@ height: 80vh;
 
 
 /* Projects Section */
-#projects{
+.projects{
     display: flex;
     flex-direction: column;
 }
-#project h1{
+.project h1{
     margin: 60px;
 }
 
@@ -322,6 +322,7 @@ height: 80vh;
 }
 /* Contact */
  .contact{
+    display: flex;
     min-width: 100vh;
     background-color: beige;
     padding:  50px;
